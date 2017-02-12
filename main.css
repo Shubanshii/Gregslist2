@@ -1,0 +1,82 @@
+nav {
+	background-color: gainsboro;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+}
+nav p {
+    padding: 18px;
+    padding-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+nav ul {
+    display: inline-block;
+    float: right;
+    padding: 20px;
+        vertical-align: middle;
+}
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav a:hover {
+    background-color: black;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: purple;
+    padding: 10px;
+}
+
+form {
+    position: absolute;
+    display: inline-block;
+    top: 80px;
+    left: 130px;
+}
+input {
+    font-size: 20px;
+}
+img {
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    height: 70px;
+}
+ul.prevnext {
+    position: absolute;
+    padding: 230px;
+    padding-left: 130px;
+    display: inline-block;
+}
+
+main ul.prevnext li {
+    display: inline-block;
+    border: 1px solid gainsboro;
+    font-size: 20px;
+    padding: 5px;
+}
+ul.searchresults {
+    padding: 130px;
+    padding-top: 280px;
+    border: none;
+    max-width: 704px;
+}
+.searchresults li {
+    display: inline-block;
+    font-size: 20px;
+    padding-bottom: 13px;
+    color: #9c9999;
+}
+li.date {
+    padding-bottom: 13px;
+    width: 18%;
+    color: #8e8e8e;
+}
+li.job {
+    padding-right: 15px;
+    color: purple;
+    padding-bottom: 13px;
+}
